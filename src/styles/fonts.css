@@ -1,0 +1,97 @@
+.title-1{
+    font-size: var(--fs-01);
+    font-weight: var(--fw-01);
+}
+
+.title-2{
+    font-size: var(--fs-02);
+    font-weight: var(--fw-01);
+}
+
+.title-3{
+    font-size: var(--fs-03);
+    font-weight: var(--fw-01);
+}
+
+.title-4{
+    font-size: var(--fs-04);
+    font-weight: var(--fw-01);
+}
+
+.title-5{
+    font-size: var(--fs-05);
+    font-weight: var(--fw-01);
+}
+
+.text-1{
+    font-size: var(--fs-06);
+    font-weight: var(--fw-01);
+}
+
+.text-2{
+    font-size: var(--fs-07);
+    font-weight: var(--fw-01);
+}
+
+.text-3{
+    font-size: var(--fs-08);
+    font-weight: var(--fw-02);
+}
+
+.text-4{
+    font-size: var(--fs-09);
+    font-weight: var(--fw-02);
+}
+
+.text-5{
+    font-size: var(--fs-10);
+    font-weight: var(--fw-02);
+}
+
+.text-6{
+    font-size: var(--fs-11);
+    font-weight: var(--fw-02);
+}
+
+
+
+
+
+
+
+
+
+
+
+.text-bttn-1 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+
+    color: #4200FF;
+}
+
+.text-bttn-2 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+
+    color: #FFFFFF;
+}
+
+.text-toast {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+
+    color: #FFFFFF;
+}
