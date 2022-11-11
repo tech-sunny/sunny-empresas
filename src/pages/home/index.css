@@ -1,0 +1,52 @@
+.main-content{
+    margin-top: 87px;
+    transition: 1s ease;
+}
+
+.main-content>img{
+    display: none;
+}
+
+.main-content>div{
+    box-shadow: 0px 0px 50px 0px rgb(0 0 0 / 12%);
+}
+
+section{
+    display: flex;
+    width: 100%;
+    overflow: auto;
+    background-color: var(--grey400);
+}
+
+@media (min-width: 700px) {
+    .main-content{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: flex-start;
+        aspect-ratio: 1160 / 740;        
+        margin-top: 45px;
+        margin-bottom: 45px;
+    }
+    
+    .main-content>img{
+        display: flex;
+        width: 550px;
+        max-width: 47.5%;
+        max-height: 100%;
+        transition: 1.5s ease;
+    }
+    
+    .main-content>div{
+        display: flex;
+        flex-direction: column;
+        width: 550px;
+        max-width: 47.5%;
+        max-height: 100%;
+    }
+    
+    section{
+        display: flex;
+        height: 100%;
+    }    
+}

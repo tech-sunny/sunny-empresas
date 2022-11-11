@@ -1,0 +1,115 @@
+.home-header {
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    right: 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+    max-height: 60px;
+    background-color: var(--white100);
+    border-bottom: 1px solid var(--opct-grey200);
+    z-index: 0;
+}
+
+.home-header-content {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+    max-height: 100%;
+    background-color: var(--white100);
+}
+
+.brand-box{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    width: max-content;
+    height: 100%;
+    gap: 12px;
+    background-color: var(--white100);
+}
+
+.status{
+    width: 12px;
+    height: 12px;
+}
+
+.logo{
+    width: 120px;
+    height: 15px;
+}
+
+.menu-fill{
+    position: absolute;
+    width: 32px;
+    height: 32px;
+    right: 0;
+}
+
+.redirect-box{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 95px;
+    gap: 3.62%;
+    top: -160px;
+    background-color: var(--white100);
+    transition: 1s ease;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.12);
+}
+
+.show-menu{
+    top: 0;
+}
+
+@media (min-width: 700px) {
+    .home-header {
+        position: relative;
+        height: 80px;
+        max-height: 80px;
+    }
+
+    .home-header-content {
+        flex-wrap: nowrap;
+    }
+
+    .brand-box{
+        height: max-content;
+    }
+
+    .status{
+        width: 16px;
+        height: 16px;
+    }
+
+    .logo{
+        width: max-content;
+        height: max-content;
+    }
+
+    .menu-fill{
+        display: none;
+    }
+
+    .redirect-box{
+        justify-content: space-between;
+        align-items: center;
+        width: 300px;
+        height: 48px;
+        top: 0px;
+        background-color: var(--white100);
+        transition: 1s ease;
+        box-shadow: none;
+    }
+}

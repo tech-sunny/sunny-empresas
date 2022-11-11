@@ -1,0 +1,39 @@
+.brand-1 {
+    color: var(--brand100);
+}
+
+.bgc-brand-1 {
+    background-color: var(--brand100);
+}
+
+.white-1 {
+    color: var(--white100);
+}
+
+.bgc-white-1 {
+    background-color: var(--white100);
+}
+
+.red-1 {
+    color: var(--red100);
+}
+
+.bgc-red-1 {
+    background-color: var(--red100);
+}
+
+.green-1 {
+    color: var(--green100);
+}
+
+.bgc-green-1 {
+    background-color: var(--green100);
+}
+
+.grey-1 {
+    color: var(--grey100);
+}
+
+.bgc-grey-1 {
+    background-color: var(--grey100);
+}
