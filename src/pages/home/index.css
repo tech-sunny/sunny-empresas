@@ -1,5 +1,4 @@
 .main-content{
-    margin-top: 87px;
     transition: 1s ease;
 }
 
@@ -19,14 +18,20 @@ section{
 }
 
 @media (min-width: 700px) {
+    main{
+        min-height: 89vh;
+        padding: 45px 0;
+        background: #fff url('../../assets/Sunny-Business-Sunny-500px.png') top 41vh right -300px no-repeat fixed;
+        background-size: 600px 600px;
+    }
+    
+    
     .main-content{
         display: flex;
         flex-direction: row;
         justify-content: space-between;
         align-items: flex-start;
         aspect-ratio: 1160 / 740;        
-        margin-top: 45px;
-        margin-bottom: 45px;
     }
     
     .main-content>img{
@@ -42,11 +47,13 @@ section{
         flex-direction: column;
         width: 550px;
         max-width: 47.5%;
+        height: 743px;
         max-height: 100%;
     }
     
     section{
         display: flex;
         height: 100%;
+        background-color: var(--opct-grey400);
     }    
 }
